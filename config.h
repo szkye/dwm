@@ -6,8 +6,8 @@ static const unsigned int snap      = 32;       /* snap pixel */
 static const unsigned int gappx     = 6;	/*pixel gap between clients*/
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Ubuntu Mono:size=12" };
-static const char dmenufont[]       = "Ubuntu Mono:size=12";
+static const char *fonts[]          = { "Ubuntu Mono:size=14" };
+static const char dmenufont[]       = "Ubuntu Mono:size=14";
 static const char col_gray1[]       = "#39375b"; /* bar background color */
 static const char col_gray2[]       = "#39375b"; /* unfocused border */
 static const char col_gray3[]       = "#bbbbbb";
