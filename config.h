@@ -8,7 +8,7 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Ubuntu Mono:size=12.5:antialias=true:autohint=true",
 					"JoyPixels:size=14:antialias=true:autohint=true",
-					"Mononoki Nerd Font:size=12.5:antialias=true:autohint=true"};
+					"Mononoki Nerd Font:size=12:antialias=true:autohint=true"};
 static const char dmenufont[]       = "Ubuntu Mono:size=12.5";
 static const char col_gray1[]       = "#39375b"; /* bar background color */
 static const char col_gray2[]       = "#39375b"; /* unfocused border */
