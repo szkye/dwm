@@ -10,11 +10,11 @@ static const char *fonts[]          = { "Ubuntu Mono:size=12.5:antialias=true:au
 					"JoyPixels:size=14:antialias=true:autohint=true",
 					"Mononoki Nerd Font:size=12:antialias=true:autohint=true"};
 static const char dmenufont[]       = "Ubuntu Mono:size=12.5";
-static const char col_gray1[]       = "#39375b"; /* bar background color */
-static const char col_gray2[]       = "#39375b"; /* unfocused border */
+static const char col_gray1[]       = "#7c3a2f"; /* bar background color */
+static const char col_gray2[]       = "#7c3a2f"; /* unfocused border */
 static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#745c97"; /* focused color */
-static const char col_cyan[]        = "#399952"; /* bar tags */
+static const char col_gray4[]       = "#7c3a2f"; /* focused color */
+static const char col_cyan[]        = "#a38059"; /* bar tags */
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
