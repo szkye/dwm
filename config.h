@@ -72,6 +72,9 @@ static const char *termcmd[]  = { "alacritty", NULL };
 static const char *roficmd[] = { "rofi", "-modi", "drun", "-show", "drun"};
 
 static const char *browsecmd[] = { "firefox", NULL };
+
+static const char *calccmd[] = { "gnome-calculator", NULL };
+
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = roficmd } },
@@ -81,6 +84,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
 	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_i,      spawn,          {.v = browsecmd } },
+	{ MODKEY|ShiftMask,             XK_y,      spawn,          {.v = calccmd } },
 	{ MODKEY,                       XK_d,      incnmaster,     {.i = -1 } },
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} },
 	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} },
