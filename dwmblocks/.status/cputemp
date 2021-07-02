@@ -1,0 +1,3 @@
+#! /bin/sh
+cputemp="$(sensors | awk '/^Core 0:/ {print $3}')"
+echo -e "$cputemp"

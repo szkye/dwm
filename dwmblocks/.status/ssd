@@ -1,0 +1,6 @@
+#! /bin/sh
+
+ssd_ishimura="$(df -h | awk '/^[/]dev[/]sda1/ {print $4}')"
+ssd_linux_filesystem="$(df -h | awk '/^[/]dev[/]sdb1/ {print $4}')"
+
+echo -e " arch: $ssd_linux_filesystem ssd: $ssd_ishimura" 
