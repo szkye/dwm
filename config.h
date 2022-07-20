@@ -41,7 +41,7 @@ static const Rule rules[] = {
 	{ "firefox",   	    		NULL,       NULL,       	1 << 1,    	1,		 False,          -1 },
 	{ "Steam",   	    		NULL,       NULL,       	1 << 4,    	1,		 False,          -1 },
 	{ "code-oss",  	    		NULL,       NULL,       	1 << 6,    	1,		 False,          -1 },
-	{ "Gnome-calculator",     	NULL,       "Calculator",       0,         	0, 		 True,           -1 },
+	{ "Mate-calc",     		NULL,       "Calculator",       0,         	0, 		 True,           -1 },
 };
 
 /* layout(s) */
@@ -76,7 +76,7 @@ static const char *roficmd[] = { "rofi", "-modi", "drun", "-show", "drun"};
 
 static const char *browsecmd[] = { "firefox", NULL };
 
-static const char *calccmd[] = { "gnome-calculator", NULL };
+static const char *calccmd[] = { "mate-calc", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
